@@ -22,7 +22,7 @@ namespace Task_2
                         break;
                     }
                 }
-                if (isSame) // umumi bir soz axtarirdiqsa(meselcun rabbit olub olmadigini) o vaxt elave bir deyer yaradib onu o deyere beraber edenden sonra axtarilanla onu muqasiye edirik, beraberdise true versin ve bu if serti odenilsin yox odemirse onda false versin. Yeni rabbit olmayana kimi(rabbi,rabb,ra)false verecek. Mutleq rabbit olmalidir
+                if (isSame) // umumi bir soz axtarirdiqsa(meselcun rabbit olub olmadigini) o vaxt elave bir deyer yaradib onu o deyere beraber edenden sonra axtarilanla onu muqasiye edirik, beraberdise true versin ve bu if serti odenilsin yox odemirse for loopuna(i=0 olana) geri donur. Yeni rabbit olmayana kimi(rabbi,rabb,ra)false verecek. Mutleq rabbit olmalidir
                 {
                     return axtarilan + " exists!";
                 }
